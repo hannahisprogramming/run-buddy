@@ -1,0 +1,10 @@
+/* applies to body */
+body {
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #39a6b2;
+}
+/*applies to header */
+header{
+    padding: 20px 35 px;
+    background-color: #39a6b2;
+}
