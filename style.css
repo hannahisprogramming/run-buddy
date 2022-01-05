@@ -4,7 +4,16 @@ body {
     color: #39a6b2;
 }
 /*applies to header */
-header{
+header {
     padding: 20px 35 px;
     background-color: #39a6b2;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: o;
+}
+header a {
+    color: #fce138;
 }
