@@ -43,7 +43,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -84,6 +84,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 /* Hero Style End */
 
@@ -93,7 +94,7 @@ section {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -139,6 +140,25 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+}
+
+.section-title {
+  font-size: 48px;
+  color: #024e76;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
 
 .step {
@@ -190,25 +210,6 @@ section {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
-}
-
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 }
 
 .trainers {
@@ -367,4 +368,30 @@ section {
 .privacy article ul li {
     color: #39a6b2;
     margin: 10px 0 10px 0;
+}
+/* end of privacy styles */
+
+/* start of media queries */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header h1 a {
+    /* this will be applied on any screen smaller than 980px */
+    
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header h1 {
+    /* this will be applied on any screen between 768px and 575px */
+    
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header h1 {
+    /* this will be applied on any screen smaller than 575px */
+    
+  }
 }
